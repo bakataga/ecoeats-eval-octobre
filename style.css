@@ -12,7 +12,7 @@ body{
     background-color: aliceblue;
 }
 .polaroid {
-    width: 300px;
+    width: 200px;
     padding: 10px 10px 25px 10px;
     background: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -31,8 +31,13 @@ body{
   .polaroid .legend {
     padding: 10px;
     font-size: 16px;
-    color: #333;
+    color: #04700a;
   }
   .polaroid:nth-child(3n+1) {
     transform: rotate(5deg);
   }
+  .p_color{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(76,230,19,1) 100%);
+  }
+  
